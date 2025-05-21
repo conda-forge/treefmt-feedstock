@@ -1,5 +1,5 @@
 {% set name = "treefmt" %}
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/numtide/treefmt/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 841b981c69751b2906134d3a63e0b73433a40da99bfd9cbaf1a0c38ad161e87e
+  sha256: 02d29561b92110e83596ec93e19c8787b31f4b3211bd0a9d2c384d1b09f74c94
 
 build:
   number: 0
