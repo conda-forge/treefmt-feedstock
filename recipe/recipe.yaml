@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 2.4.0
+  version: "2.4.1"
 
 package:
   name: treefmt
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/numtide/treefmt/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 2b67a03045e8d31c6018d2149438d544c1c9dae7db44510cdd596030a13b38fd
+  sha256: b798ea210346474ce7f90dc062e849615abdbfeac1219d88d16bb1da7ce5566b
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
